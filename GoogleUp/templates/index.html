@@ -1,0 +1,11 @@
+<h1>hello</h1>
+
+{% load static %}
+{% load drivelink %}
+
+
+{% for a in c.all %}
+<h4>{{ a.map_name}}</h4>
+<img src="{{ a.map_data.url|convert_drivelink }}" height="200px" width="400px">
+{% endfor %}
+    

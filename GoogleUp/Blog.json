@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "silver-rain-219519",
+  "private_key_id": "d16ced5ffc9e278ae8a7ce48178638496a79178e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCUh6sxfobavilr\nWdSLqi1AB6RwxRCeckKXAMqrsXB9ZcITbDks53exMXR+I0AAHWjHfblXpvura3Dk\nG+e5x9HS4DGd0+PHNMUSTWZhK8Duw/qIqeDfZ0HK0vPvZZmMjHTqlTX1k/4gGeXu\n2SW1RlVbHXIRao/Q1W+xsW8B1YsY9bGnstflFLt8sNiuq6QMoF1RVd+zxAM3LbbD\n8eMeHGXCJ/3pdc1Y2UXDI9E3uWq4Qksh1KkzMZDumi16A8XH+0xOwm/xF2RBpFSz\noQUivSEXH6k+qG5VTS+DdBxd5UZR9t2hIK+I1n9uYWgZauHQvJ4tF2B57MTy8RNo\njPM+97ODAgMBAAECggEABKqag0yRWg/9ZyUEW3r2Pvu+e9iFJCU82FerBmflu9rV\nlRyiUznWddey7D+ZRCeoYhQeHZXedE1E17XUuu5/NhvbEzVUA68xvdh2rfjc7+Ny\nXJbRvNMWqxOjnFLZ1yOWjMQxVMzYgBOwOKfT2nUiO2GactehOxNplfCYJzuZSihp\nskb8IPKpq/zbSCAiHgM4qYS607PnuyuBj2yIVNQlnbUcJ06hHJ6s3XP6hH7w8/Mo\niSCMGktuWA+0c7pgtYcWZ0ybtW1wZiGfAq94nEHJF7C7hUWcBi7Fmz/IxqtOxfuA\nyaebzRldpIV9w6fEe6G7sT7woCbgRPkmFHjXfcikYQKBgQDGcScn32f1jqqYzMjf\nbSlYazPNd0mNZGFviwmDXjI7hM4b+PPMsbgeloyozYdceJ0v2TBxdW+AMxN0LJ5B\na8MWDhGJM5Zo9v5u4n5fUBOnksLB9kYzxhsHxVPv142MtvwoIh0pbsz/GUrGbnJw\n9zyfY9mNlp52YTVyqFqKB9QYUwKBgQC/nGnRmaf4s2Xzq0Cb0uV3cPai57eT5wjc\njdCoML+2YVEyVJ9K+PdxAvVnw+gFruiPAGTncTo3FwdYBU4Wli8FF+iZ5gSL8X/V\nnZoYHjTulCzCuoEmkVW9j3PYqyJ0sHRVncyDJ3G5SmESK5aS/ccygsp1oJn5DCXs\n46Qt9JrSEQKBgFmtryVMx91oAN6WxTx7R5EGuV1kSCAWuhW/fqgYfJj7Nm3bvsnF\nktB39s8eOsrmUxrZixPrH12PN35r34TvHzWrW+9mGdYLsQYJY1TNimRTZaJkGmux\nXmvPmFQuVHDADQpSCF2+DfRGyM0OArfcc1AQvrNG2wvieFX9kRUJ3qazAoGACNFh\n7Uts930KDBStfH5QIRcJwqV3RU80kTHVkGft6q6/1dkfG4wplwHT2VqiquBJw4r5\nGc2UKETfCaX02gU/VLSs96gmPWp3v5TpKoL5XKFlDfEXUHcPwxF++1Gk3EnikK4a\nY07FZQmPPg7TdyBGsoRiXNdvPo7Yj/ZJ7/N5zIECgYARmzMIWaNc6CI7HHjPmiur\nLJ+WNPmX1cU2sA4tHqz2bhtxuNH7QB7SFkzVN7BOvBgDzdiFIM/91Wz8NFLzP3Ng\n/CJezUUuXiBCgLYovrUlWCIh9kRuD8Z0kcq0Ol8VO/CP2N81UcJ0cG630cjpZDe4\nr1QUf+njJ3gd9syYHpqjaQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "django-ex@silver-rain-219519.iam.gserviceaccount.com",
+  "client_id": "107207456225664190748",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/django-ex%40silver-rain-219519.iam.gserviceaccount.com"
+}

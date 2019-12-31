@@ -1,0 +1,1 @@
+web: sh -c 'cd GoogleUp && gunicorn blog.wsgi --log-file -'
