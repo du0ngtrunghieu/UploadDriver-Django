@@ -1,1 +1,1 @@
-web: sh -c 'cd GoogleUp && gunicorn blog.wsgi --log-file -'
+web: sh -c 'cd GoogleUp && gunicorn GoogleUp.wsgi --log-file -'
