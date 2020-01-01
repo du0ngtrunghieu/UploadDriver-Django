@@ -1,11 +1,78 @@
 <h1>hello</h1>
 
-{% load static %}
-{% load drivelink %}
+    {% load static %}
+    {% load drivelink %}
 
 
-{% for a in c.all %}
-<h4>{{ a.map_name}}</h4>
-<img src="{{ a.map_data.url|convert_drivelink }}" height="200px" width="400px">
-{% endfor %}
+
+
+
+    {% if c.0.video %}
+    <p>{{ c.0.video.url|convert_drivelink }}</p>
     
+    {% endif %}
+
+
+    <html>
+
+    <head>
+        <script src="https://use.fontawesome.com/20603b964f.js"></script>
+        <script type="text/javascript" src="https://content.jwplatform.com/libraries/LJ361JYj.js"></script>
+        <script type="text/javascript">
+            jwplayer.key = 'ypdL3Acgwp4Uh2/LDE9dYh3W/EPwDMuA2yid4ytssfI=';
+        </script>
+    </head>
+
+    <body>
+        
+        {% for a in c.all %}
+            
+            {% if a.video %}
+            <div id="myElement-{{ a.id}}"></div>
+            {% endif %}
+                
+        {% endfor %}
+            
+    </br>
+        <div class='video'>
+           
+           {% for a in c.all %}
+           <script type="text/javascript">
+            jwplayer("myElement-{{ a.id}}").setup({
+                "advertising": {
+                    "client": "vast",
+                    "schedule": [{
+                        "tag": "https://s.yimg.com/cv/apiv2/nfl/ads/20190906/a/sportsapp.xml",
+                        "type": "nonlinear",
+                        "offset": 2
+                    }]
+                },
+                image: "https://content.jwplatform.com/thumbs/xJ7Wcodt-720.jpg",
+                aspectratio: "16:9",
+                width: '800px',
+                aspectratio: '16:9',
+                autostart: false,
+                sources: [
+                {file:
+                'https://www.googleapis.com/drive/v3/files/{{ a.video.url|convert_drivelink }}?alt=media&key=AIzaSyDdoetN4aDmDBc6Y11CUGK4nhZ0pvZbXOw',type:
+                'mp4',label: '1080'}
+                ],
+                abouttext: 'FILMKACA',
+                aboutlink: 'http://filmkaca.xyz',
+
+                captions: {
+                    color: '#ffb800',
+                    fontSize: 30,
+                    backgroundOpacity: 0
+                },
+
+            })
+        </script>
+           {% endfor %}
+               
+            
+           
+        </div>
+    </body>
+
+    </html>
