@@ -47,18 +47,20 @@
                         "offset": 2
                     }]
                 },
-                image: "https://content.jwplatform.com/thumbs/xJ7Wcodt-720.jpg",
+                image: "{{ a.map_data.url|convert_drivelink }}",
                 aspectratio: "16:9",
                 width: '800px',
                 aspectratio: '16:9',
                 autostart: false,
                 sources: [
                 {file:
-                'https://www.googleapis.com/drive/v3/files/{{ a.video.url|convert_drivelink }}?alt=media&key=AIzaSyDdoetN4aDmDBc6Y11CUGK4nhZ0pvZbXOw',type:
-                'mp4',label: '1080'}
+                'https://www.googleapis.com/drive/v3/files/{{ a.video.url|convert_drivelink }}?alt=media&key=AIzaSyAoX3E4y1ZywvoSoqSiJWcxQHxGjlI6wyg',type:
+                'mp4',label: '720p'},
+                {file:
+                    'https://www.googleapis.com/drive/v3/files/{{ a.video.url|convert_drivelink }}?alt=media&key=AIzaSyAoX3E4y1ZywvoSoqSiJWcxQHxGjlI6wyg',type:
+                    'mp4',label: '480p'}
                 ],
-                abouttext: 'FILMKACA',
-                aboutlink: 'http://filmkaca.xyz',
+               
 
                 captions: {
                     color: '#ffb800',
